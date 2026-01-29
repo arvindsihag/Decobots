@@ -1,0 +1,32 @@
+
+title: "Decolonizing Cobots Framework"
+description: "SDG-Aligned Framework for Equitable Robotic Integration"
+theme: jekyll-theme-cayman 
+
+sdg_icons_path: "/assets/icons/"
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+
+header_pages:
+  - index.md
+  - framework.md
+  - case-studies.md
+  - resources.md
+
+repository: "arvindsihag/Decobots"
+sdgs:
+  4: "Quality Education"
+  8: "Decent Work & Economic Growth"
+  9: "Industry, Innovation & Infrastructure"
+  10: "Reduced Inequalities"
+  12: "Responsible Consumption & Production"
+  17: "Partnerships for the Goals"
